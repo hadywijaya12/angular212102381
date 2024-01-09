@@ -71,7 +71,7 @@ export class CuacaComponent implements OnInit, AfterViewInit{
         var weather = element.weather[0];
         console.log(weather);
 
-        var iconUrl = "https://openweathermap.org/img/wn/" + weather.icon + "@2.png";
+        var iconUrl = "https://openweathermap.org/img/wn/" + weather.icon + "@2x.png";
         var cuacaDeskripsi = weather.main + "||" + weather.description;
 
         var main = element.main;
